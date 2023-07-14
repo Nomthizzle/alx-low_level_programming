@@ -2,7 +2,7 @@
 
 /**
  * main - prints all single digit numbers
- * Return: Always 
+ * Return: Always 0 
  */
 int main(void)
 {
