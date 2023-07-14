@@ -10,12 +10,11 @@ int main(void)
 
 	for (lp = 'a'; lp <= 'z'; lp++)
 		putchar(lp);
-	
-	for (lp = 'A'; lp <= 'Z';lp++)
+
+	for (lp = 'A'; lp <= 'Z'; lp++)
 		putchar(lp);
 
 	putchar('\n');
 
 	return (0);
-}
-		
+}		
