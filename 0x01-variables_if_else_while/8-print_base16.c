@@ -7,16 +7,22 @@
 int main(void)
 {
 	int num;
-
-	for (num = 48; num < 58; num++)
+	char la;
+	
+	num = 0;
+	la = 'a';
+	while (num < 10)
 	{
-		putchar(num);
-		if (num != 57)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+		putchar(num + '0');
+		num++;
 	}
+
+	while ( la <= 'f')
+	{
+		putchar(la);
+		la++;
+	}
+
 	putchar('\n');
 
 	return (0);
